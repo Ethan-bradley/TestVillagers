@@ -29,7 +29,7 @@ public class CombatScript : MonoBehaviour
         armor = person.strength + weapon.armor;
         gs = GameObject.FindGameObjectsWithTag("gameManager")[0].GetComponent<GameScript>();
         StartCoroutine(combatTurn());
-
+        
     }
 
     // Update is called once per frame
